@@ -112,32 +112,3 @@ def find_paired_numbers(numbers):
             paired_numbers = paired_numbers + [number]
     return paired_numbers
 
-
-a = '1ddddddd'
-b = '2cccccccc'
-c = 1.
-d = 2.
-e = 5
-list1 = [4, 5, 1, 6, 2]
-list2 = [1, 5, 8, 6, 'd', 'name', 2]
-list3 = [1, 2, 2, 2, 'd', 1, 2]
-dict1 = {"Make": "111", "Model": "222", "Year": "333"}
-dict2 = {"Make2": "111", "Model2": "222", "Year2": "333"}
-
-set1 = {2.0, "Nicholas", (1, 2, 3)}
-set2 = {2.0, "Alex", 4}
-set3 = {2.0}
-
-print(string_length(a))
-print(concatenate_strings(a, b))
-print(square_number(e))
-print(sum_two_number(c, c))
-print(division_with_remainder(e, d))
-print(average_of_list(list1))
-print(both_of_lists(list2, list3))
-print(get_keys(dict1))
-print(merge_dicts(dict1, dict2))
-print(union_of_sets(set1, set2))
-print(is_subset(set3, set1))
-paired_or_unpaired(d)
-print(find_paired_numbers(list1))
